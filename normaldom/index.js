@@ -18,7 +18,6 @@ async function showData() {
         const jsonData = await serverData.json();
 
 
-
         let table = `<table border='2px'>
             ${
             jsonData.map((ele) => `
